@@ -1,0 +1,46 @@
+body{
+    background: #F25A29;
+    color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url(./images/header-section.jpg);
+}
+header img{
+    width: 200px;
+    height: 200px;
+}
+section#about{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#about div p{
+    font-size: 20px;
+}
+
+section#about div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    flex:1;
+
+}
+.opening{background-image: url(./images/1.jpg);}
+.mention{background-image: url(./images/2.jpg);}
+.nombre{background-image: url(./images/3.jpg);}
+
+
+                /*section cocktails*/
+
+section#cocktail img{
+    height: 120px;
+}
+
+#cocktail{
+    
+}
